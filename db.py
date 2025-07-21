@@ -19,4 +19,8 @@ def create_user_table():
 # Main block to run directly
 if __name__ == "__main__":
     create_user_table()
+<<<<<<< HEAD
     print("✅ users table created (if it didn't already exist).")
+=======
+    print("✅ users table created (if it didn't already exist).")
+>>>>>>> 56cec695fe366cc576c18539cab85fcd1021dee0
