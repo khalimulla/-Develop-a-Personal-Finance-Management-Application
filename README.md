@@ -38,6 +38,8 @@ Python 3.13.5
 # Installation & Usage
 1.Clone the repository or download the script
 
+https://github.com/khalimulla/personal-finance-cli
+
 2.Run the app
 
 3.Follow the menu:
