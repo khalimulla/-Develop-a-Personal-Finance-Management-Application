@@ -60,12 +60,34 @@ Enter your choice: 1
 Enter username: john123
 Enter password: ********
  Registration successful!
+# Once logged in, users can
+1. Add Transaction
+2. View Transactions
+3. Update Transaction
+4. Delete Transaction
+5. Financial Report
+6. Set Budget
+7. Backup Data
+8. Restore Data
+9. Logout
+#  Feature Descriptions
+ | Option | Feature                | Description                                              |
+| ------ | ---------------------- | -------------------------------------------------------- |
+| 1      | **Add Transaction**    | Add an income or expense with date, category, and amount |
+| 2      | **Update Transaction** | Modify an existing transaction’s details                 |
+| 3      | **Delete Transaction** | Remove a transaction by its ID                           |
+| 4      | **View Transactions**  | See all transactions by date, category, and amount       |
+| 5      | **Set Budget**         | Define a monthly budget for each category                |
+| 6      | **Generate Report**    | Summarize income, expenses, and savings by month/year    |
+| 7      | **Backup DB**          | Create a backup of the current database                  |
+| 8      | **Restore DB**         | Restore from the previously saved backup                 |
+| 9      | **Logout**             | Exit the logged-in session                               |
 
-# Security Notes
 
-Passwords are hashed using SHA-256 but not salted. For production, consider using libraries like bcrypt or argon2.
 
-No email verification or password recovery implemented in this version
+
+
+
 
 
 
