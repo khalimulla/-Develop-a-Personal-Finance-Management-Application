@@ -17,8 +17,8 @@ Security: Passwords are hashed with hashlib (SHA-256)
 
 # Project Structure
 
-├── users.db                # SQLite database (created automatically)
-└── auth_app.py             # Main application file
+users.db                # SQLite database (created automatically)
+ auth_app.py             # Main application file
 
 
  # Features         
@@ -71,17 +71,16 @@ Enter password: ********
 8. Restore Data
 9. Logout
 #  Feature Descriptions
- | Option | Feature                | Description                                              |
-| ------ | ---------------------- | -------------------------------------------------------- |
-| 1      | **Add Transaction**    | Add an income or expense with date, category, and amount |
-| 2      | **Update Transaction** | Modify an existing transaction’s details                 |
-| 3      | **Delete Transaction** | Remove a transaction by its ID                           |
-| 4      | **View Transactions**  | See all transactions by date, category, and amount       |
-| 5      | **Set Budget**         | Define a monthly budget for each category                |
-| 6      | **Generate Report**    | Summarize income, expenses, and savings by month/year    |
-| 7      | **Backup DB**          | Create a backup of the current database                  |
-| 8      | **Restore DB**         | Restore from the previously saved backup                 |
-| 9      | **Logout**             | Exit the logged-in session                               |
+  Option | Feature                 Description                                              
+ ------  ----------------------  -------------------------------------------------------- 
+ 1       **Add Transaction**     Add an income or expense with date, category, and amount 
+ 2       **Update Transaction**  Modify an existing transaction’s details                 
+ 4       **View Transactions**   See all transactions by date, category, and amount       
+ 5       **Set Budget**          Define a monthly budget for each category                
+ 6       **Generate Report**     Summarize income, expenses, and savings by month/year    
+ 7       **Backup DB**           Create a backup of the current database                  
+ 8       **Restore DB**          Restore from the previously saved backup                 
+ 9       **Logout**              Exit the logged-in session                               
 
 
 
